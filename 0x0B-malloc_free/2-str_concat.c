@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 			{
 																			s3[i] = s1[i];
 																			i++;
-																		}
+			}
 		}
 
 		if (s2)
@@ -41,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 																			j++;
 			}
 																	}
-	s3[i] = '\0';
+		s3[i] = '\0';
 
-	return (s3);
+		return (s3);
 }
