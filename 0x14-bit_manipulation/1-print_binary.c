@@ -16,7 +16,8 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	for (temp = n, shift = 0; (temp >>= 1) > 0; shift++);
+	for (temp = n, shift = 0; (temp >>= 1) > 0; shift++)
+		;
 
 	for (; shift >= 0; shift--)
 	{
